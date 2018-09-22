@@ -1,0 +1,18 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	border: 0 none;
+	vertical-align: middle;
+}
+
+.jm{
+	width: 100%;
+}
+.jm img{
+	width: 100%;
+}
+.jm:nth-child(1){
+	padding-top: 80px;
+}

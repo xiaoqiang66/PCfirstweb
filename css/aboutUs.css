@@ -1,0 +1,406 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,li{
+	list-style: none;
+}
+img{
+	border: 0 none;
+	vertical-align: middle;
+}
+
+
+.bodyTwo{
+	width: 100%;
+	height: 4200px;
+	position: relative;
+}
+.tab1{
+	width: 100%;
+	position: absolute;
+	height: 300px;
+	top: 80px;
+	background: url(../img/all-background1.jpg) -350px 0;
+}
+.tab1>.tab11{
+	width: 149px;
+	height: 100%;
+	position: absolute;
+	transform-style: preserve-3d;
+}
+.tab1>.tab11:nth-child(1){
+	animation:ma 10s linear 0.2s infinite alternate;
+	left: 0;
+}
+.tab1>.tab11:nth-child(2){
+	animation:ma 10s linear 0.4s infinite alternate;
+	left: 149px;
+}
+.tab1>.tab11:nth-child(3){
+	animation:ma 10s linear 0.6s infinite alternate;
+	left: 298px;
+}
+.tab1>.tab11:nth-child(4){
+	animation:ma 10s linear 0.8s infinite alternate;
+	left: 447px;
+}
+.tab1>.tab11:nth-child(5){
+	animation:ma 10s linear 1s infinite alternate;
+	left: 596px;
+}
+.tab1>.tab11:nth-child(6){
+	animation:ma 10s linear 1.2s infinite alternate;
+	left: 745px;
+}
+.tab1>.tab11:nth-child(7){
+	animation:ma 10s linear 1.4s infinite alternate;
+	left: 894px;
+}
+.tab1>.tab11:nth-child(8){
+	animation:ma 10s linear 1.6s infinite alternate;
+	left: 1043px;
+}
+.tab1>.tab11:nth-child(9){
+	animation:ma 10s linear 1.8s infinite alternate;
+	left: 1192px;
+}
+.tab1>.tab11:nth-child(10){
+	animation:ma 10s linear 2s infinite backwards;
+	left: 1341px;
+}
+
+@keyframes ma {
+0%,20% {transform: rotateX(0deg);}
+40%,60%{transform: rotateX(-180deg);}
+80%,100% {transform: rotateX(-360deg);}
+}
+.tab1>.tab11:last-child{
+	width: 157px;
+}
+.tab1>.tab11 dd{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+.tab1>.tab11 dd img{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.tab1>.tab11:nth-child(2) dd img{
+	left: -149px;
+}
+.tab1>.tab11:nth-child(3) dd img{
+	left: -298px;
+}
+.tab1>.tab11:nth-child(4) dd img{
+	left: -447px;
+}
+.tab1>.tab11:nth-child(5) dd img{
+	left: -596px;
+}
+.tab1>.tab11:nth-child(6) dd img{
+	left: -745px;
+}
+.tab1>.tab11:nth-child(7) dd img{
+	left: -894px;
+}
+.tab1>.tab11:nth-child(8) dd img{
+	left: -1043px;
+}
+.tab1>.tab11:nth-child(9) dd img{
+	left: -1192px;
+}
+.tab1>.tab11:nth-child(10) dd img{
+	left: -1341px;
+}
+.tab1>.tab11 dd:nth-child(2){
+	transform: translateZ(-50px);
+}
+
+
+.tab2{
+	width: 1100px;
+	/*height: 600px;*/
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: 380px;
+}
+.tab2 .tab2-lis{
+	width: 100%;
+	height: 30px;
+	position: absolute;
+	left: 0;
+	top: 20px;
+}
+.tab2 .tab2-lis li{
+	float: left;
+	width: 100px;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+}
+.tab2 .tab2-lis li:nth-child(1){
+	background: #0c8ccc;
+}
+.tab2 .tab2-lis li:nth-child(1) a{
+	color: white;
+}
+.tab2 .tab2-lis dd{
+	float: left;
+	width: 70px;
+	text-align: center;
+	font-size: 10px;
+}
+.tab2 .tab2-lis dl{
+	position: absolute;
+	top: 0px;
+	right: 0;
+}
+.tab2 .tab2-lis a:hover{
+	color: skyblue;
+}
+.tab2 .tab2-lis2{
+	width: 100%;
+	/*height: 630px;*/
+	position: absolute;
+	left: 0;
+	top: 90px;
+}
+.tab2 .tab2-lis2 h2{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 96px;
+	top: 0;
+}
+.tab2 .tab2-lis2 span{
+	position: absolute;
+	top: 35px;
+	text-align: center;
+	width: 100%;
+}
+.tab2 .tab2-lis2 .bg{
+	width: 100%;
+	position: absolute;
+	top: 90px;
+	height: 400px;
+}
+.tab2 .tab2-lis2 .bg>img{
+	width: 100%;
+	height: 100%;
+}
+.tab2 .tab2-lis2 .font-bg{
+	width: 100%;
+	height: 140px;
+	top: 530px;
+	position: absolute;
+}
+.tab2 .tab2-lis2 .font-bg li{
+	width: 100%;
+	height: 20px;
+	text-align: center;
+	font-size: 14px;
+}
+.tab2 .tab2-lis2 .font-bg li:nth-child(1) h2{
+	width: 150px;
+	color: #0c8ccc;
+}
+.tab2 .tab2-lis2 .font-bg li:nth-child(2){
+	margin-top: 30px;
+	
+}
+.tab2 .tab2-lis2 .font-bg ul{
+	display: none;
+}
+.tab2 .tab2-lis2 .box{
+	width: 100%;
+	height: 70px;
+	position: absolute;
+	top: 720px;
+}
+.tab2 .tab2-lis2 .box1{
+	width: 100%;
+	position: absolute;
+	top: 830px;
+}
+.tab2 .tab2-lis2 .box1 dd{
+	width: 100%;
+	height: 400px;
+	margin-bottom: 30px;
+	position: relative;
+}
+.tab2 .tab2-lis2 .box1 dd .box1-see{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	display: none;
+}
+.tab2 .tab2-lis2 .box1 dd .box1-see>img,.tab2 .tab2-lis2 .box1 dd .box2-see>img{
+	width: 560px;
+	height: 370px;
+	position: absolute;
+	right: 0;
+}
+.tab2 .tab2-lis2 .box1 dd .box2-see>img{
+	left: 0;
+}
+.tab2 .tab2-lis2 .box1 dd .box1-see>.number,.tab2 .tab2-lis2 .box1 dd .box2-see>.number{
+	width: 75px;
+	height: 95px;
+	font-size: 50px;
+	text-align: center;
+	position: absolute;
+	top: -10px;
+	right: 560px;
+	color: white;
+	background: #0c8ccc;
+	line-height: 95px;
+}
+.tab2 .tab2-lis2 .box1 dd .box2-see>.number{
+	left: 560px;
+}
+.tab2 .tab2-lis2 .box1 dd .box1-see>.font,.tab2 .tab2-lis2 .box1 dd .box2-see>.font{
+	width: 540px;
+    height: 284px;
+    background: #f6f6f6;
+    position: absolute;
+    top: 86px;
+    left: 0
+}
+.tab2 .tab2-lis2 .box1 dd .box2-see>.font{
+	left: 560px;
+}
+.tab2 .tab2-lis2 .box1 dd .box1-see>.font1,.tab2 .tab2-lis2 .box1 dd .box2-see>.font1{
+	width: 133px;
+    height: 70px;
+    position: absolute;
+    top: 16px;
+    left: 75px;
+}
+.tab2 .tab2-lis2 .box1 dd .box2-see>.font1{
+	left: 680px;
+}
+.tab2 .tab2-lis2 .box1 dd .box1-see>.font ol,.tab2 .tab2-lis2 .box1 dd .box2-see>.font ol{
+	position: absolute;
+	left: 75px;
+	width: 340px;
+	height: 284px;
+}
+.tab2 .tab2-lis2 .box1 dd .box2-see>.font ol{
+	left: 120px;
+	display: none;
+}
+
+.tab2 .tab2-lis2 .box1 dd .box1-see>.font li{
+	width: 340px;
+	height: 28px;
+	font-size: 13px;
+	line-height: 28px;
+	margin: 0;
+	position: absolute;
+	bottom: 0;
+	opacity:0;
+}
+.tab2 .tab2-lis2 .box1 dd .box2-see>.font li{
+	width: 340px;
+	height: 28px;
+	font-size: 13px;
+	line-height: 28px;
+	margin: 0;
+}
+.tab2 .tab2-lis2 .box1 dd .box1-see>.font li:nth-child(1){
+	animation: font1 1s 1s linear forwards;
+}
+@keyframes font1{
+	0%{bottom: 0;}
+	100%{bottom: 258px;opacity: 1;}
+}
+.tab2 .tab2-lis2 .box1 dd .box1-see>.font li:nth-child(2){
+	animation: font2 1s 2s linear forwards;
+}
+@keyframes font2{
+	0%{bottom: 0;}
+	100%{bottom: 228px;opacity: 1;}
+}
+.tab2 .tab2-lis2 .box1 dd .box1-see>.font li:nth-child(3){
+	animation: font3 1s 3s linear forwards;
+}
+@keyframes font3{
+	0%{bottom: 0;}
+	100%{bottom: 198px;opacity: 1;}
+}
+.tab2 .tab2-lis2 .box1 dd .box1-see>.font li:nth-child(4){
+	animation: font4 1s 4s linear forwards;
+}
+@keyframes font4{
+	0%{bottom: 0;}
+	100%{bottom: 168px;opacity: 1;}
+}
+.tab2 .tab2-lis2 .box1 dd .box1-see>.font li:nth-child(5){
+	animation: font5 1s 5s linear forwards;
+}
+@keyframes font5{
+	0%{bottom: 0;}
+	100%{bottom: 138px;opacity: 1;}
+}
+.tab2 .tab2-lis2 .box1 dd .box1-see>.font li:nth-child(6){
+	animation: font6 1s 6s linear forwards;
+}
+@keyframes font6{
+	0%{bottom: 0;}
+	100%{bottom: 108px;opacity: 1;}
+}
+.tab2 .tab2-lis2 .box1 dd .box1-see>.font li:nth-child(7){
+	animation: font7 1s 7s linear forwards;
+}
+@keyframes font7{
+	0%{bottom: 0;}
+	100%{bottom: 78px;opacity: 1;}
+}
+.tab2 .tab2-lis2 .box1 dd .box1-see>.font li:nth-child(8){
+	animation: font8 1s 8s linear forwards;
+}
+@keyframes font8{
+	0%{bottom: 0;}
+	100%{bottom: 48px;opacity: 1;}
+}
+.tab2 .tab2-lis2 .box1 dd .box1-see>.font li:nth-child(9){
+	animation: font9 1s 9s linear forwards;
+}
+@keyframes font9{
+	0%{bottom: 0;}
+	100%{bottom: 18px;opacity: 1;}
+}
+.tab2 .tab2-lis2 .box1 dd .box1-see>.font li:nth-child(10){
+	animation: font10 1s 10s linear forwards;
+}
+@keyframes font10{
+	0%{bottom: 0;}
+	100%{bottom: -5px;opacity: 1;}
+}
+.tab2 .tab2-lis2 .box2{
+	width: 100%;
+	position: absolute;
+	top: 2990px;
+	height: 100px;
+}
+.tab2 .tab2-lis2 .box3{
+	width: 100%;
+	position: absolute;
+	top: 3090px;
+	height: 560px;
+}
+.tab2 .tab2-lis2 .box3 img{
+	width: 100%;
+	height: 100%;
+	display: none;
+}

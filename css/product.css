@@ -1,0 +1,173 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,li{
+	list-style: none;
+}
+img{
+	border: 0 none;
+	vertical-align: middle;
+}
+body{
+	background: url(../img/body-lun-bg.jpg) -35px 640px;
+}
+
+.product{
+	width: 100%;
+}
+.product-tab{
+	width:100%;
+	height: 300px;
+}
+.product-tab>img{
+	width: 100%;
+	height: 100%;
+}
+
+.ull{
+	width: 100%;
+}
+.product ul{
+	margin: 50px 0;
+	margin-left: 520px;
+}
+.product ul>li>.big{
+	width: 280px;
+	background: url(../img/all-background1.jpg) no-repeat 0px 0;
+	border:4px solid deepskyblue;
+	position: relative;
+	border-radius: 20px;
+	
+}
+.product li{
+	/*width: 280px;*/
+	margin-bottom: 64px;
+	cursor: pointer;
+}
+
+.product li>img{
+	border-radius: 10px;
+	width: 50%;
+	height: 50%;
+	
+}
+
+.product li .p1{
+    width: 100px;
+    height: 100px;
+    transition: all 1s linear;
+}
+.product li .p1>img{
+	width: 100%;
+	height: 100%;
+	
+}
+.product li .p1>p{
+	width: 50px;
+    height: 50px;
+    font-size: 50px;
+    line-height: 50px;
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    color: white;
+    text-align: center;
+}
+.product li .p2{
+	position: absolute;
+	left: 150px;
+	top: 40px;
+	color: white;
+	font-size:20px ;
+}
+.product dl{
+	display: none;
+}
+.product ul>li dl{
+	width: 1000px;
+	/*overflow: hidden;*/
+
+}
+/*清除浮动*/
+.clearfix::before,.clearfix::after{
+	content: "";
+	display: table;
+}
+.clearfix::after{
+	clear: both;
+}
+.clearfix{
+	zoom: 1;
+}
+
+
+
+
+.product ul>li dl dd{
+	width: 200px;
+	border: 0 none;
+	margin-top: 25px;
+	margin-right: 20px;
+	margin-left: 1px;
+	/*border-radius:0 ;*/
+	border-bottom: 1px solid gray;
+	background: white;
+	height: 340px;
+	position: relative;
+	float: left;
+	
+}
+
+
+.product ul>li dl dd div{
+	width: 200px;
+	height: 200px;
+	background: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+.product ul>li dl dd div img{
+	width: 100%;
+	height: 100%;
+}
+
+.product ul>li dl dd .p-one{
+	position: absolute;
+	top: 230px;
+	left: 0;
+	font-size: 14px;
+}
+.product ul>li dl dd .p-one a{
+	color: blue;
+	opacity: 0;
+}
+.product ul>li dl dd .p-two{
+	position: absolute;
+	top: 270px;
+	left: 0;
+	font-size: 12px;
+	color: gray;
+	height: 65px;
+	white-space:normal;
+	overflow:hidden;
+	text-overflow: ellipsis;
+	padding:0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

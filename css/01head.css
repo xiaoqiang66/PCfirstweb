@@ -1,0 +1,185 @@
+*{
+	margin:0;
+	padding: 0;
+}
+img{
+	border:  0 none;
+	vertical-align: middle;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+
+/*头部样式*/
+.head{
+	width: 100%;
+	height: 80px;
+	background: url(../img/yinyue_bg.jpg) no-repeat -340px -130px;
+	position: fixed;
+	z-index: 100;
+}
+.content{
+	width: 1100px;
+	height: 80px;
+	margin: 0 auto;
+	position: relative;
+	
+}
+
+/*头部logo样式*/
+.content>.logo{
+	width: 200px;
+	height: 80px;
+	position: absolute;
+	left: 0;
+	top:50%;
+	margin-top: -35px;
+	/*background: url(../img/logo1.png) no-repeat 0 0;*/
+}
+.content>.logo>img{
+	width: 100%;
+	height: 80%;
+}
+
+/*一级菜单样式*/
+.one{
+	height: 80px;
+	width: 770px;
+	position: absolute;
+	left: 330px;
+}
+.one>li{
+	width: 110px;
+	height: 80px;
+	line-height: 80px;
+	font-size: 17px;
+	text-align: center;
+	float: left;
+	position: relative;
+	border-top: 3px solid transparent;
+	color: white;
+}
+.one>li>a{
+	transition: all 0.2s linear;
+	color: white;
+}
+
+.one>li>a:hover,.one>li>a:hover+i{
+	color: #00a88d;
+}
+.one>li:hover i{
+	border: 7px solid transparent;
+	border-top-color: red;
+	border-radius: 100%;
+	top: 40px;
+	right: 5px;
+}
+.one>li:hover{
+	border-top: 3px solid deepskyblue;
+}
+.one>li i{
+	width: 0;
+	height: 0;
+	border: 3px solid white;
+	border-radius: 50%;
+	position: absolute;
+	top: 39px;
+	right: 10px;
+}
+
+/*二级菜单样式*/
+.one>li:nth-child(4) dd{
+	width: 110px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 15px;
+}
+.one>li:nth-child(4) dl{
+	box-shadow: 0px 2px 10px 0px blueviolet ;
+	display: none;
+}
+.one>li:nth-child(4) dl a:hover{
+	color: #00a88d;
+}
+.one>li:nth-child(4) dd:hover{
+	background: #efefef;
+	cursor: pointer;
+}
+
+/*二级菜单轮播图*/
+.one>li:nth-child(3) div{
+	width:1200px;
+	height: 200px;
+	box-shadow:0px 2px 10px 0px blueviolet;
+	position: absolute;
+	top: 75px;
+	left: -600px;
+	overflow: hidden;
+	display: none;
+}
+.one>li:nth-child(3):hover div{
+	display: block;
+}
+.one>li:nth-child(3) div ul{
+	width: 700%;
+	position: absolute;
+	left: 0px;
+}
+.one>li:nth-child(3) div ul>li{
+	float: left;
+	width: 200px;
+	height: 200px;
+	position: relative;	
+}
+.one>li:nth-child(3) div ul>li>img{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	user-select:none;
+	width: 50%;
+	height: 50%;
+}
+.one>li:nth-child(3) div ul>li>a{
+	font-size: 15px;
+	position: absolute;
+    height: 20px;
+    line-height: 20px;
+    left: 0;
+    right: 0px;
+    margin: auto;
+	cursor: pointer;
+}
+.one>li:nth-child(3) div ul>li>a:hover{
+	color: #00a88d;
+}
+
+/*二级菜单箭头设置*/
+.one>li:nth-child(3) div>p{
+	width: 40px;
+	height: 100%;
+	position: absolute;	
+	top:0;
+	line-height: 200px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 20px;
+	z-index: 20;
+	border-radius: 50px;
+}
+.one>li:nth-child(3) div>p:hover{
+	background: rgba(0,0,0,.01);
+	user-select: none;
+}
+.one>li:nth-child(3) div .left{
+	left: 0;
+}
+.one>li:nth-child(3) div .right{
+	right: 0;
+}

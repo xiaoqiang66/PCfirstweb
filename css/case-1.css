@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	border: 0 none;
+	vertical-align: middle;
+}
+ul,li{
+	list-style: none;
+}
+.body{
+	width: 100%;
+	height: 3500px;
+}
+.body-tab{
+	width: 100%;
+	height: 300px;
+	position: absolute;
+	top: 80px;
+	left: 0;
+}
+.body-tab>img{
+	width: 100%;
+	height: 100%;
+}
+.case-1-content{
+	width: 1200px;
+	height: 3000px;
+	position: absolute;
+	top: 380px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.case1-lis>li{
+	float: left;
+	width: 80px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	margin: 10px 5px;
+	font-size: 13px;
+}
+.case1-lis>li>a{
+	width: 100px;
+	height: 20px;	
+}
+.case1-dis>dd{
+	float: right;
+	width: 80px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	margin: 10px 0;
+	font-size: 10px;
+}
+.case1-dis>dd>a{
+	width: 100px;
+	height: 20px;	
+}
+.case1-dis>dd>a:hover{
+	color: #0C8CCC;
+}
+
+.case1-all{
+	width: 89%;
+	height: 3000px;
+	position: absolute;
+	top: 55px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.case1-all>h2{
+	position: absolute;
+	top: 20px;
+	color: #0C8CCC;
+}
+.case1-all>.case1-see{
+	position: absolute;
+	top:100px;
+	width: 100%;
+	height: 2840px;
+	border-bottom: 1px solid #0C8CCC;
+	border-top: 1px solid #0C8CCC;
+}
+.case1-all>.case1-see>div:nth-child(1){
+	width: 700px;
+	height: 400px;
+	position: absolute;
+	top: 55px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.case1-all>.case1-see>div:nth-child(1)>img{
+	width: 100%;
+	height: 100%;
+}
+.case1-all>.case1-see>div:nth-child(2){
+	position: absolute;
+	top: 500px;
+}
+
+.case1-all>.case1-see>div:nth-child(3){
+	position: absolute;
+	top: 750px;
+	width: 100%;
+	height: 500px;
+}
+.case1-all>.case1-see>div:nth-child(3)>img{
+	width: 100%;
+	height: 100%;
+}
+
+.case1-all>.case1-see>div:nth-child(4){
+	position: absolute;
+	top: 1360px;
+	width: 100%;
+	color: gray;
+}
+.case1-all>.but{
+	position: absolute;
+	bottom: -25px;
+	width: 100%;
+	
+}
+
+.case1-all>.but button{
+	border: 1px solid #0C8CCC;
+    height: 60px;
+    line-height: 60px;
+    width: 180px;
+    text-align: center;
+    background: transparent;
+}
+.case1-all>.but button a{
+	font-size:15px;
+}
+.case1-all>.but button a:hover{
+	color: #0C8CCC;
+}

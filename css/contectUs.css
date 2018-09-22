@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	border: 0 none;
+	vertical-align: middle;
+}
+.body{
+	width: 100%;
+	height: 1580px;
+	position: relative;
+}
+.body>.contect-tab{
+	position: absolute;
+	top: 80px;
+	width: 100%;
+	height: 300px;
+	
+}
+.body>.contect-tab>img{
+	width: 100%;
+	height: 100%;
+}
+.body>.contect-box{
+	width: 1000px;
+	position: absolute;
+	top: 450px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.map{
+	width: 100%;
+	height: 500px;
+}

@@ -1,0 +1,312 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,li{
+	list-style: none;
+}
+dl,dd{
+	list-style:none;
+}
+img{
+	border: 0 none;
+	vertical-align: middle;
+}
+a{
+	text-decoration: none;
+}
+.caseTab{
+	width: 100%;
+	height: 50px;
+	background: url(../img/yinyue_bg.jpg) no-repeat -340px -130px;
+	z-index: 10;
+}
+.caseBox{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.caseBox>img{
+	width: 16%;
+}
+.caseBox li{
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	color: red;
+	float: left;
+	text-align: center;
+}
+.caseBox li:hover{
+	background: deepskyblue;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.caseBox li a{
+	color: white;
+}
+.caseBox li a:hover{
+	color: white;
+}
+.caseBox ul{
+	position: absolute;
+	top: 0;
+	left: 260px;
+}
+
+.caseBox1{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.case-see{
+	position: absolute;
+	top: 0;left: 0;
+	width: 100%;
+	height: 100%;
+}
+.case-see >li{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.case-see >li:nth-child(2){
+	/*background: red;*/
+}
+.case-see >li:nth-child(3){
+	/*background: blue;*/
+}
+.case-see >li:nth-child(4){
+	/*background: skyblue;*/
+}
+.case-see >li:nth-child(5){
+	/*background: green;*/
+}
+
+
+.case-see li h2{
+	position: absolute;
+	top: 70px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 100px;
+	text-align: center;
+	color: #0C8CCC;
+}
+.case-see li span{
+	position: absolute;
+	width: 50px;
+	border-bottom: 2px solid deepskyblue;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: 110px;
+}
+.case-see li .box11{
+	width: 1035px;
+    height: 386px;
+	position: absolute;
+	top: 140px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	overflow: hidden;
+}
+
+.case-see li .case-show{
+	width: 1000px;
+	height: 350px;
+	border: 5px solid #e8e8e8;
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+}
+.case-see li .box111{
+	width: 3000px;
+	height: 386px;
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+}
+.case-see li:nth-child(2) .box111{
+	transform-style: preserve-3d;
+	transition: all 0.5s linear; 
+	
+}
+.case-see li .case-show:nth-child(2){
+	left: 1035px;
+}
+.case-see li:nth-child(2) .case-show:nth-child(2){
+	bottom: 0px;
+	left: 0;
+	transform: rotateX(-90deg) translateZ(-125px);
+}
+.case-see li .case-show .img{
+	width: 500px;
+	height: 100%;
+	position: absolute;
+	right: -30px;
+	top: -30px;
+}
+.case-see li .case-show .img img{
+	width: 100%;
+	height: 100%;
+}
+.case-see li .case-show h2{
+	position: absolute;
+	top: 40px;
+	left: -510px;
+	width: 200px;
+	text-align: center;
+	color: black;
+}
+.case-see li .case-show span{
+position: absolute;
+	width: 100px;
+	border-bottom: 2px solid deepskyblue;
+	left: -503px;
+    top: 80px;
+}
+
+.case-see li .case-show .font{
+	position: absolute;
+	top: 110px;
+	left: 30px;
+	font-size: 14px;
+}
+.case-see li:nth-child(2) .case-show .font{
+	position: absolute;
+	top: 96px;
+	left: 30px;
+	font-size: 14px;
+}
+
+.case-see li .case-show .more{
+	box-shadow:  0 0 5px 0 gray;
+	width: 132px;
+	height: 30px;
+	position: absolute;
+	font-size: 10px;
+	top: 301px;
+    left: 225px;
+    line-height: 30px;
+    cursor: pointer;
+}
+.case-see li .case-show .more a:hover{
+	color: white;
+}
+.case-see li .case-show .more .z1{
+	position: absolute;
+	left: 0;
+	/*width: 93px;*/
+	width: 0;
+	height: 30px;
+	text-align: center;
+	background: #0C8CCC;
+	color: white;
+	z-index: -1;
+}
+.case-see li .case-show .more .z2{
+	position: absolute;
+	right: 0;
+	width: 40px;
+	height: 30px;
+	text-align: center;
+	background: #0C8CCC;
+	z-index: -1;
+	cursor: pointer;
+	
+}
+
+.case-see button{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 10px solid blueviolet;
+	position: absolute;
+	left:0;
+	right:0;
+	margin: auto;
+    bottom: 10px;
+    cursor: pointer;
+    outline: 0 none;
+   animation: change 1s linear infinite;
+   font-size: 30px;
+   background: white;
+} 
+.case-see .left2{
+	left:-1210px;
+	top: 0;
+	margin: auto;
+    bottom: 10px;
+}
+@keyframes change{
+	0%{width: 50.2px;
+	  height: 50.2px;}
+	5%{width: 50.4px;
+	  height: 50.4px;}
+	10%{width: 50.6px;
+	  height: 50.6px;}
+	15%{width: 50.8px;
+	  height: 50.8px;}
+	20%{width: 51px;
+	  height: 51px;}
+	25%{width: 51.2px;
+	  height: 51.2px;}
+	30%{width: 51.4px;
+	  height: 51.4px;}
+	35%{width: 51.6px;
+	  height: 51.6px;}
+	40%{width: 51.8px;
+	  height: 51.8px;}
+	45%{width: 52px;
+	  height: 52px;}
+	50%{width: 51.8px;
+	  height: 51.8px;}
+	55%{width: 51.6px;
+	  height: 51.6px;}
+	60%{width: 51.4px;
+	  height:  51.4px;}
+	65%{width: 51.2px;
+	  height: 51.2px;}
+	70%{width: 51px;
+	  height: 51px;}
+	75%{width: 50.8px;
+	  height: 50.8px;}
+	80%{width: 50.6px;
+	  height: 50.6px;}
+	85%{width: 50.4px;
+	  height: 50.4px;}
+	90%{width: 50.2px;
+	  height: 50.2px;}
+	95%{width: 50px;
+	  height: 50px;} 
+	100%{width: 50px;
+	  height: 50px;}
+	
+}
+
+.chang1,.chang2,.chang3,.chang4{
+	width: 5px;
+	height: 5px;
+	position: absolute;
+	background: #0C8CCC;
+	
+}
+.chang1,.chang2{
+	top: -5px;
+	left: -5px;
+}
+.chang3,.chang4{
+	right: -5px;
+	bottom: -5px;
+}
+
+.screen>a{
+	font-size: 10px;
+	position: fixed;
+	top: 60px;
+	left: 10px;
+}
